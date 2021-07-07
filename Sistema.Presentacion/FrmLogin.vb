@@ -24,6 +24,7 @@
 
                     'GUARDA LOS DATOS DEL USUARIO QUE ACCEDE AL SISTEMA
                     FrmPrincipal.IdUsuario = Obj.IdUsuario
+                    Variables.IdUsuario = Obj.IdUsuario 'GUARDA EL USUARIO LOGUEADO EN LA VARIABLE
                     FrmPrincipal.IdRol = Obj.IdRol
                     FrmPrincipal.Rol = Obj.Rol
                     FrmPrincipal.Nombre = Obj.Nombre

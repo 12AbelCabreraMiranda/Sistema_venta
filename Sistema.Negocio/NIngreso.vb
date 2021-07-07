@@ -25,6 +25,18 @@ Public Class NIngreso
         End Try
     End Function
 
+    Public Function ListarDetalle(Id As Integer) As DataTable
+        Try
+            Dim Datos As New DIngreso
+            Dim Tabla As New DataTable
+            Tabla = Datos.ListarDetalle(Id)
+            Return Tabla
+        Catch ex As Exception
+            MsgBox(ex.Message)
+            Return Nothing
+        End Try
+    End Function
+
     Public Function Anular(Id As Integer) As Boolean
         Try
             Dim Datos As New DIngreso

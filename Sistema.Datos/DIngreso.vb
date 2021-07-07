@@ -35,6 +35,23 @@ Public Class DIngreso
         End Try
     End Function
 
+    Public Function ListarDetalle(Id As Integer) As DataTable
+        Try
+            Dim Resultado As SqlDataReader
+            Dim Tabla As New DataTable
+            Dim Comando As New SqlCommand("ingreso_listar_detalle", MyBase.conn)
+            Comando.CommandType = CommandType.StoredProcedure
+            Comando.Parameters.Add("@idingreso", SqlDbType.Int).Value = Id
+            MyBase.conn.Open()
+            Resultado = Comando.ExecuteReader()
+            Tabla.Load(Resultado)
+            MyBase.conn.Close()
+            Return Tabla
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Function
+
     Public Sub Anular(Id As Integer)
         Try
             Dim Comando As New SqlCommand("ingreso_anular", MyBase.conn)
