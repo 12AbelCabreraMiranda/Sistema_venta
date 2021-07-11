@@ -29,3 +29,5 @@ C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Presenta
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmCliente.resources
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmIngreso.resources
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmProveedor_Ingreso.resources
+C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmCliente_Venta.resources
+C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmVenta.resources

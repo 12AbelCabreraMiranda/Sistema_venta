@@ -218,4 +218,11 @@ Public Class FrmPrincipal
         frm.MdiParent = Me
         frm.Show()
     End Sub
+
+    Private Sub VentasToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles VentasToolStripMenuItem1.Click
+        'ABRE FORMULARIO VENTA
+        Dim frm As New FrmVenta
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
 End Class
