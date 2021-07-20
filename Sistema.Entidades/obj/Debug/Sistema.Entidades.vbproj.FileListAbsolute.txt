@@ -8,3 +8,13 @@ C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Entidade
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Entidades\obj\Debug\Sistema.Entidades.dll
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Entidades\obj\Debug\Sistema.Entidades.xml
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Entidades\obj\Debug\Sistema.Entidades.pdb
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\bin\Debug\Sistema.Entidades.dll
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\bin\Debug\Sistema.Entidades.pdb
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\bin\Debug\Sistema.Entidades.xml
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbprojAssemblyReference.cache
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\obj\Debug\Sistema.Entidades.Resources.resources
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbproj.GenerateResource.cache
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbproj.CoreCompileInputs.cache
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\obj\Debug\Sistema.Entidades.dll
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\obj\Debug\Sistema.Entidades.xml
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Entidades\obj\Debug\Sistema.Entidades.pdb

@@ -5,7 +5,7 @@ Public Class Conexion
 
     'CONSTRUCTOR
     Public Sub New()
-        Me.conn = New SqlConnection("Data Source=DESKTOP-6D474CP\SQLEXPRESS;Initial Catalog=dbsistema;Integrated Security=True")
+        Me.conn = New SqlConnection("Data Source=LAPTOP-8F5D0JQM\SQLEXPRESS;Initial Catalog=dbsistema;Integrated Security=True")
     End Sub
 
 End Class

@@ -12,3 +12,17 @@ C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Datos\ob
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.dll
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.xml
 C:\Users\Abel\Documents\Visual Studio 2019\Visual Basic\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.pdb
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\bin\Debug\Sistema.Datos.dll
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\bin\Debug\Sistema.Datos.pdb
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\bin\Debug\Sistema.Datos.xml
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\bin\Debug\Sistema.Entidades.dll
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\bin\Debug\Sistema.Entidades.pdb
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\bin\Debug\Sistema.Entidades.xml
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\obj\Debug\Sistema.Datos.vbprojAssemblyReference.cache
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\obj\Debug\Sistema.Datos.Resources.resources
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.GenerateResource.cache
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CoreCompileInputs.cache
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CopyComplete
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\obj\Debug\Sistema.Datos.dll
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\obj\Debug\Sistema.Datos.xml
+C:\Users\cabre\Documents\Visual Studio 2019\VB\Sistema_venta\Sistema.Datos\obj\Debug\Sistema.Datos.pdb
