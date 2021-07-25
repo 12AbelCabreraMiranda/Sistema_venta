@@ -74,6 +74,7 @@ Partial Class FrmVenta
         Me.TabGeneral = New System.Windows.Forms.TabControl()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.BtnVerComprobante = New System.Windows.Forms.Button()
         CType(Me.DgvDetalle, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.ErrorIcono, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -393,6 +394,7 @@ Partial Class FrmVenta
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.BtnVerComprobante)
         Me.TabPage1.Controls.Add(Me.PanelMostrar)
         Me.TabPage1.Controls.Add(Me.BtnAnular)
         Me.TabPage1.Controls.Add(Me.ChkSeleccionar)
@@ -594,6 +596,15 @@ Partial Class FrmVenta
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Detalles"
         '
+        'BtnVerComprobante
+        '
+        Me.BtnVerComprobante.Location = New System.Drawing.Point(909, 44)
+        Me.BtnVerComprobante.Name = "BtnVerComprobante"
+        Me.BtnVerComprobante.Size = New System.Drawing.Size(141, 23)
+        Me.BtnVerComprobante.TabIndex = 9
+        Me.BtnVerComprobante.Text = "Comprovante"
+        Me.BtnVerComprobante.UseVisualStyleBackColor = True
+        '
         'FrmVenta
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -676,4 +687,5 @@ Partial Class FrmVenta
     Friend WithEvents DgvArticulos As DataGridView
     Friend WithEvents BtnBuscarArticulosDetalle As Button
     Friend WithEvents TxtBuscarArticulos As TextBox
+    Friend WithEvents BtnVerComprobante As Button
 End Class

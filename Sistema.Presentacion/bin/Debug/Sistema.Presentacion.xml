@@ -37,7 +37,17 @@ Represents a strongly typed in-memory cache of data.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:Sistema.Presentacion.DsSistema.venta_comprobanteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
 <member name="T:Sistema.Presentacion.DsSistema.articulo_listarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema.Presentacion.DsSistema.venta_comprobanteRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -47,7 +57,17 @@ Represents strongly named DataRow class.
 Row event argument class
 </summary>
 </member>
+<member name="T:Sistema.Presentacion.DsSistema.venta_comprobanteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:Sistema.Presentacion.DsSistemaTableAdapters.articulo_listarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema.Presentacion.DsSistemaTableAdapters.venta_comprobanteTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

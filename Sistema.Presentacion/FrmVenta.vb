@@ -332,4 +332,13 @@
         Me.Listar()
         Me.CrearTablaDetalle()
     End Sub
+
+    Private Sub BtnVerComprobante_Click(sender As Object, e As EventArgs) Handles BtnVerComprobante.Click
+        Try
+            Variables.IdVdenta = DgvListado.SelectedCells.Item(1).Value
+            FmrReporteComprovanteVenta.ShowDialog()
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Class

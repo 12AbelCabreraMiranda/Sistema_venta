@@ -5,4 +5,5 @@
 
     Public Shared IdCliente As Integer
     Public Shared NombreCliente As String
+    Public Shared IdVdenta As Integer
 End Class
