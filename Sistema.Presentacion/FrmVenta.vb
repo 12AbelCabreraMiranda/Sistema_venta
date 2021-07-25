@@ -338,7 +338,7 @@
             Variables.IdVdenta = DgvListado.SelectedCells.Item(1).Value
             FmrReporteComprovanteVenta.ShowDialog()
         Catch ex As Exception
-
+            MsgBox(ex.Message)
         End Try
     End Sub
 End Class

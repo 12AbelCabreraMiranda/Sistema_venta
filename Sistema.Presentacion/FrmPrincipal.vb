@@ -6,7 +6,7 @@ Public Class FrmPrincipal
     Private _Rol As String
     Private _Nombre As String
 
-    Private Sub ShowNewForm(ByVal sender As Object, ByVal e As EventArgs) Handles NewToolStripButton.Click, NewWindowToolStripMenuItem.Click
+    Private Sub ShowNewForm(ByVal sender As Object, ByVal e As EventArgs) Handles NewWindowToolStripMenuItem.Click
         ' Cree una nueva instancia del formulario secundario.
         Dim ChildForm As New System.Windows.Forms.Form
         ' Conviértalo en un elemento secundario de este formulario MDI antes de mostrarlo.
@@ -18,7 +18,7 @@ Public Class FrmPrincipal
         ChildForm.Show()
     End Sub
 
-    Private Sub OpenFile(ByVal sender As Object, ByVal e As EventArgs) Handles OpenToolStripButton.Click
+    Private Sub OpenFile(ByVal sender As Object, ByVal e As EventArgs)
         Dim OpenFileDialog As New OpenFileDialog
         OpenFileDialog.InitialDirectory = My.Computer.FileSystem.SpecialDirectories.MyDocuments
         OpenFileDialog.Filter = "Archivos de texto (*.txt)|*.txt|Todos los archivos (*.*)|*.*"
@@ -136,24 +136,33 @@ Public Class FrmPrincipal
             MnuVentas.Enabled = True
             MnuAcceso.Enabled = True
             MnuConsultas.Enabled = True
+            TsCompras.Enabled = True
+            TsVentas.Enabled = True
+
         ElseIf (Me.Rol = "Almacenero") Then
             MnuAlmacen.Enabled = True
             MnuIngresos.Enabled = True
             MnuVentas.Enabled = False
             MnuAcceso.Enabled = False
             MnuConsultas.Enabled = False
+            TsCompras.Enabled = True
+            TsVentas.Enabled = False
         ElseIf (Me.Rol = "Vendedor") Then
             MnuAlmacen.Enabled = False
             MnuIngresos.Enabled = False
             MnuVentas.Enabled = True
             MnuAcceso.Enabled = False
             MnuConsultas.Enabled = False
+            TsCompras.Enabled = False
+            TsVentas.Enabled = True
         Else
             MnuAlmacen.Enabled = False
             MnuIngresos.Enabled = False
             MnuVentas.Enabled = False
             MnuAcceso.Enabled = False
             MnuConsultas.Enabled = False
+            TsCompras.Enabled = False
+            TsVentas.Enabled = False
         End If
 
     End Sub
@@ -222,6 +231,26 @@ Public Class FrmPrincipal
     Private Sub VentasToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles VentasToolStripMenuItem1.Click
         'ABRE FORMULARIO VENTA
         Dim frm As New FrmVenta
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
+
+    Private Sub ConsultaVentasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultaVentasToolStripMenuItem.Click
+        Dim frm As New FrmConsultaVentas
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
+
+    Private Sub TsVentas_Click(sender As Object, e As EventArgs) Handles TsVentas.Click
+        'ABRE FORMULARIO VENTA
+        Dim frm As New FrmVenta
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
+
+    Private Sub TsCompras_Click(sender As Object, e As EventArgs) Handles TsCompras.Click
+        'ABRE FORMULARIO INGRESO
+        Dim frm As New FrmIngreso
         frm.MdiParent = Me
         frm.Show()
     End Sub
